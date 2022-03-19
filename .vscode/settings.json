@@ -1,4 +1,4 @@
 {
-    "editor.defaultFormatter": "kokororin.vscode-phpfmt",
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter",
     "editor.formatOnSave": true
 }

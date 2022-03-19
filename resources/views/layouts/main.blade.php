@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,16 +16,19 @@
     <header>
         <nav class="navbar navbar-light bg-danger">
             <div class="container">
-              <a  href="{{route('home')}}">              
-                  <img class="img-fluid" src="https://www.begear.it/wp-content/uploads/2015/11/Logo-trenitalia.jpg" alt="" width="30" height="24">               
-              </a>
+                <a href="{{ route('home') }}">
+                    <img class="img-fluid"
+                        src="https://www.begear.it/wp-content/uploads/2015/11/Logo-trenitalia.jpg" alt="" width="30"
+                        height="24">
+                </a>
             </div>
-          </nav>
+        </nav>
     </header>
-    
-    
+
+
     @yield('content')
-    
+
 
 </body>
+
 </html>¨
