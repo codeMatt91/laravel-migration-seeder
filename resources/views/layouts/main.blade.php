@@ -12,8 +12,8 @@
     <header>
         <nav class="navbar navbar-light bg-danger">
             <div class="container">
-              <a class="navbar-brand" href="{{route('home')}}">
-                <img  src="https://www.begear.it/wp-content/uploads/2015/11/Logo-trenitalia.jpg" alt="" width="30" height="24">
+              <a  href="{{route('home')}}">              
+                  <img class="img-fluid" src="https://www.begear.it/wp-content/uploads/2015/11/Logo-trenitalia.jpg" alt="" width="30" height="24">               
               </a>
             </div>
           </nav>

@@ -5,7 +5,7 @@
 @section('content')
 <main class="bg-dark">
     <div class="container">
-  
+        
     </div>
 </main>
 @endsection
