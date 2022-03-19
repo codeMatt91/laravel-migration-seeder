@@ -4,19 +4,18 @@
 
 @section('content')
 <main class="bg-dark text-white">
-    <div class="container py-5">
-            <table> 
+            <table class="m-auto py-5"> 
                 <tr class="text-center border-bottom border-warning">
-                    <th class="py-4"><strong>id</strong></th>
-                    <th class="py-4"><strong>azienda</strong></th>
-                    <th class="py-4"><strong>stazione_di_partenza</strong></th>
-                    <th class="py-4"><strong>stazione_di_arrivo</strong></th>
-                    <th class="py-4"><strong>orario_di_partenza</strong></th>
-                    <th class="py-4"><strong>orario_di_arrivo</strong></th>
-                    <th class="py-4"><strong>carrozze</strong></th>
-                    <th class="py-4"><strong>in_orario</strong></th>
-                    <th class="py-4"><strong>numero_treno</strong></th>
-                    <th class="py-4"><strong>cancellato</strong></th>
+                    <th class="p-3"><strong>id</strong></th>
+                    <th class="p-3"><strong>azienda</strong></th>
+                    <th class="p-3"><strong>stazione_di_partenza</strong></th>
+                    <th class="p-3"><strong>stazione_di_arrivo</strong></th>
+                    <th class="p-3"><strong>orario_di_partenza</strong></th>
+                    <th class="p-3"><strong>orario_di_arrivo</strong></th>
+                    <th class="p-3"><strong>carrozze</strong></th>
+                    <th class="p-3"><strong>in_orario</strong></th>
+                    <th class="p-3"><strong>numero_treno</strong></th>
+                    <th class="p-3"><strong>cancellato</strong></th>
                 </tr>
                 @foreach ($trains as $train)
                 <tr class="p-4 text-center border-bottom border-warning">
@@ -33,7 +32,6 @@
                 </tr>
                 @endforeach
                 
-              </table> 
-    </div>
+              </table>
 </main>
 @endsection

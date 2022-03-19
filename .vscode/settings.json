@@ -1,4 +1,4 @@
 {
-    "editor.defaultFormatter": "onecentlin.laravel-blade",
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt",
     "editor.formatOnSave": true
 }
